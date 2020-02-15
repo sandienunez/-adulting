@@ -3,16 +3,16 @@ var adulting = {
 	Items: [
 
 	{
-		"Category" : "Interest" 
-		"Title" : "Finance"
+		"Category" : "Header" 
+		"Title" : "Adulting logo"
 		"Description" : ""
 		"Images" : [
-		"", "", ""
+		"../img/logo.jpg", 
 		]
 
 	},
 
-
+../img/logo.jpg
 
 	]
 
