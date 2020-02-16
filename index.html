@@ -144,6 +144,8 @@
 
 </html>
 
+
+<script type="text/javascript" src="/data/items.js"></script>
 <script type="text/javascript">
 
 	function hideContent(){
@@ -161,5 +163,24 @@
 
 	function more(){document.getElementById("bodyContent").style.display = "block";}
 	function less(){document.getElementById("bodyContent").style.display = "none";} less();
+
+
+	function bullets(listOf){
+
+		var ul = document.createElement("ul");
+
+		for (i = 0; i < listOf.length; i++){
+
+			var li = document.createElement("li");
+			li.setAttribute("class", "bMain");
+			li.innerHTML = listOf[i];
+			ul.appendChild(li);
+		}
+
+		return ul;
+	}
+
+	console.log( JSON.stringify(adulting) );
+
 
 </script>
