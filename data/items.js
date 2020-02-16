@@ -21,7 +21,6 @@ var adulting = {
 				"https://www.businessinsider.com/money-problems-millennials-facing-student-loan-debt-homeownership-2019-5",
 				"https://www.businessinsider.com/not-all-millennials-are-financially-literate-pass-this-test-2019-4",
 				"https://gflec.org/initiatives/millennial-financial-literacy-and-fin-tech-use/",
-				"../img/logo.jpg", "../img/definition.jpg"
 			]
 
 		},
@@ -37,7 +36,6 @@ var adulting = {
 				"https://www.youtube.com/watch?v=F3QpgXBtDeo",
 				"https://www.youtube.com/watch?v=Mxu85SCT9lQ",
 				"https://www.youtube.com/watch?v=Sbp_t4guM8g",
-				"../img/logo.jpg", "../img/definition.jpg"
 			]
 
 		},
@@ -52,11 +50,10 @@ var adulting = {
 				"https://www.youtube.com/watch?v=NREpzfGU3Bo",
 				"https://www.youtube.com/watch?v=by8mp1XMQ5E",
 				"https://www.youtube.com/watch?v=ApHRfYA1A-Y",
-				"../img/logo.jpg", "../img/definition.jpg"
 			]
 		},
 
-		
+
 		{
 			"Category" : "Real Estate" 
 			"Title" : "Real Estate"
@@ -67,7 +64,6 @@ var adulting = {
 				"http://archive.uli.org/fallmeeting2012/wed/ULIRealEstateFinance101-JayRollins.pdf",
 				"https://millennialmoney.com/real-estate-investing-for-beginners/",
 				"https://www.youtube.com/watch?v=VXeaU0i54H0",
-				"../img/logo.jpg", "../img/definition.jpg"
 			]
 
 		},
