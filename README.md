@@ -1,4 +1,6 @@
 # #adulting
+
+![Adulting](/img/logo.jpg "Logo")
  
 ## Inspiration: We were inspired by the vast lack of awareness concerning financial literacy among millenials. We decided it was prudent we built an app addressing this issue.
 
