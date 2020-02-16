@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
 	<!-- Scripts -->
 	<script type="text/javascript" src="https://myles.works/script/detectmobilebrowser.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,6 +24,7 @@
 
 	<link rel="icon" href="https://myles.works/img/icon/logoSQ.png">
 	<title>#Adulting</title>
+
 </head>
 
 <body>
@@ -64,6 +66,8 @@
 		<!-- Content: Finance -->
 		<div class="fw-box" id = "finance">
 			<div id="content" class="fb2c">
+
+				<!-- Finance: Support Content -->
 				<div class="square embeddedItem lightYellowGreen">
 					<h2 class="bMain">Title</h2>
 					<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
@@ -88,6 +92,8 @@
 		<!-- Content: Real Estate -->
 		<div class="fw-box" id = "estate">
 			<div id="content" class="fb2c">
+
+				<!-- Real Estate: Support Content -->
 				<div class="square embeddedItem" style="background-color: #46bca4;">
 					<h2 class="bMain">Title</h2>
 					<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
@@ -122,18 +128,21 @@
 				</div>
 			</div>
 
-			<p class="bMain" style="text-align: center;"><br><br><button class="button">Learn More</button><br><br></p>
+			<!-- Content: Button -->
+			<p class="bMain" style="text-align: center;"><br><br><button class="button" onclick="hideMail();">Learn More</button><br><br></p>
 
 			<!-- Form -->
-			<p style="text-align: center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe67RxRbaYTP9OCPdDm3ExDyeAlaBUacJYE_Vyp6E7InO3kZA/viewform?embedded=true" width="640" height="936" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+			<p style="text-align: center;"><iframe id="email" src="https://docs.google.com/forms/d/e/1FAIpQLSe67RxRbaYTP9OCPdDm3ExDyeAlaBUacJYE_Vyp6E7InO3kZA/viewform?embedded=true" width="640" height="936" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+
+			<div class="fw-box" style="text-align: center;"><img src="https://www.troyhunt.com/content/images/2018/02/Surface-Web-Deep-Web-Dark-Web.jpg" style="width: 50%; padding-bottom: 5%;"></div>
 		</div>
 
 	</div>
 </div>
 
 </body>
-</html>
 
+</html>
 
 <script type="text/javascript">
 
@@ -144,6 +153,7 @@
 	} hideContent();
 
 	function hideQuiz(){document.getElementById("quiz").style.display = "none";}
+	function hideMail(){document.getElementById("email").style.display = "none";}
 
 	function showFinance(){document.getElementById("finance").style.display = "block"; hideQuiz();}
 	function showRealEstate(){document.getElementById("estate").style.display = "block"; hideQuiz();}
