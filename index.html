@@ -220,7 +220,17 @@
 	</div>
 </div>
 
-<div class="fw-box" style="padding: 5% 10% 5% 10%;"><p style="text-align: center;"><button class="button" style="text-align: center; background-color: #eee02f; color: black;"><img src="img/socialpic.jpg" style="width: 5vw;"><br><br>#MyFeed...</button></p></div>
+<div class="fw-box" style="padding: 5% 10% 5% 10%;" onclick="showPersonalFeed();">
+	<p style="text-align: center;">
+		<button class="button" style="text-align: center; background-color: #eee02f; color: black;"><img src="img/socialpic.jpg" style="width: 5vw;"><br><br>#MyFeed...</button>
+
+		<div class="fb2c" id="personalFeed">
+			<div class="embeddedItem"><img src="img/img1.jpeg"></div>
+			<div class="embeddedItem"><img src="img/img2.jpeg"></div>
+		</div>
+
+	</p>
+</div>
 
 </body>
 </html>
@@ -230,11 +240,13 @@
 		document.getElementById("finance").style.display = "none";
 		document.getElementById("estate").style.display = "none";
 		document.getElementById("computing").style.display = "none";
+		document.getElementById("personalFeed").style.display = "none";
 	} hideContent();
 
 	function hideQuiz(){document.getElementById("quiz").style.display = "none";}
 	function hideMail(){document.getElementById("email").style.display = "none";}
 
+	function showPersonalFeed(){document.getElementById("personalFeed").style.display = "block"; hideQuiz();}
 	function showFinance(){document.getElementById("finance").style.display = "block"; hideQuiz();}
 	function showRealEstate(){document.getElementById("estate").style.display = "block"; hideQuiz();}
 	function showComputing(){document.getElementById("computing").style.display = "block"; hideQuiz();}

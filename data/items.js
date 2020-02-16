@@ -43,7 +43,7 @@ var adulting = {
 		{
 			"Category" : "Finance",
 			"Title" : "Retirement",
-			"Description" : ""
+			"Description" : "",
 			"Articles" : [ 
 				"https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/publications/top-10-ways-to-prepare-for-retirement.pdf",
 				"https://www.businessinsider.com/tips-make-retirement-savings-last-2019-5",
@@ -81,5 +81,5 @@ var adulting = {
 			],
 
 		},
-	]''
+	],
 }
