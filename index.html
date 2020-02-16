@@ -52,54 +52,82 @@
 	
 	<!-- Navigation Buttons -->
 	<div class="fw-box" id="workCategories" style="min-height: 40vw;">
-		<a href="#context"><div class="sm-box-button sbb-start" style="background-color: #fd35da;">
+		<a href="#context"><div onclick="hideContent(); showFinance();" class="sm-box-button sbb-start" style="background-color: #fd35da;">
 			<div class="topic-text textInButton"> 
 				<img src="https://myles.works/img/icon/graphic-design.svg" style=" max-width: 40%;"><br>Finance</div></div></a>
-		<a href="#context"><div class="sm-box-button" style="background-color: #3172fa;">
+		<a href="#context"><div onclick="hideContent(); showRealEstate();" class="sm-box-button" style="background-color: #3172fa;">
 			<div class="topic-text textInButton">
 				<img src="https://myles.works/img/icon/construction.svg" style="max-width: 40%;"><br>Real Estate</div></div></a>
-		<a href="#context"><div class="sm-box-button sbb-end" style="background-color: #01887f;">
+		<a href="#context"><div onclick="hideContent(); showComputing();" class="sm-box-button sbb-end" style="background-color: #01887f;">
 			<div class="topic-text textInButton">
 				<img src="https://myles.works/img/icon/coding.svg" style="max-width: 40%;"><br>Computing 101</div></div></a>
 	</div>
 
-	<!-- Content -->
-	<div class="fw-box" id = "context">
-		<div id="content" class="fb2c">
-			<div class="square embeddedItem lightYellowGreen">
-				<h2 class="bMain">Title</h2>
-				<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
-			</div>
-			<div class="square embeddedItem lightgray">
-				<h2 class="bMain">Title</h2>
-				<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
-			</div>
-			<div class="square embeddedItem seaGreen"></div>
-		</div>
+	<div id = "context">
 
-		<!-- Content -->
-		<div class="fb4c">
-			<div class="square embeddedItem seaGreen"><p class="bMain">hi</p></div>
-			<div class="square embeddedItem lightgray"><p class="bMain">yo</p></div>
-			<div class="square embeddedItem lightYellowGreen"><p class="bMain">test</p></div>
-			<div class="square embeddedItem seaGreen"><p class="bMain">1, 2, 3</p></div>
-			
-		</div>
-	</div>
+		<!-- Content: Finance -->
+		<div class="fw-box" id = "finance">
+			<div id="content" class="fb2c">
+				<div class="square embeddedItem lightYellowGreen">
+					<h2 class="bMain">Title</h2>
+					<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
+				</div>
+				<div class="square embeddedItem lightgray">
+					<h2 class="bMain">Title</h2>
+					<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
+				</div>
+				<div class="square embeddedItem seaGreen"></div>
+			</div>
 
-	<!-- Content -->
-	<div class="fw-box">
-		<div class="fw-box">
-			<div>
-				<h2 class="bMain">Title</h2>
-				<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
+			<!-- Content -->
+			<div class="fb4c">
+				<div class="square embeddedItem seaGreen"><p class="bMain">hi</p></div>
+				<div class="square embeddedItem lightgray"><p class="bMain">yo</p></div>
+				<div class="square embeddedItem lightYellowGreen"><p class="bMain">test</p></div>
+				<div class="square embeddedItem seaGreen"><p class="bMain">1, 2, 3</p></div>
+				
 			</div>
 		</div>
 
-		<p class="bMain" style="text-align: center;"><br><br><button class="button">Learn More</button><br><br></p>
+		<!-- Content: Real Estate -->
+		<div class="fw-box" id = "estate">
+			<div id="content" class="fb2c">
+				<div class="square embeddedItem lightYellowGreen">
+					<h2 class="bMain">Title</h2>
+					<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
+				</div>
+				<div class="square embeddedItem lightgray">
+					<h2 class="bMain">Title</h2>
+					<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
+				</div>
+				<div class="square embeddedItem seaGreen"></div>
+			</div>
 
-		<!-- Form -->
-		<p style="text-align: center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe67RxRbaYTP9OCPdDm3ExDyeAlaBUacJYE_Vyp6E7InO3kZA/viewform?embedded=true" width="640" height="936" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+			<!-- Content -->
+			<div class="fb4c">
+				<div class="square embeddedItem seaGreen"><p class="bMain">hi</p></div>
+				<div class="square embeddedItem lightgray"><p class="bMain">yo</p></div>
+				<div class="square embeddedItem lightYellowGreen"><p class="bMain">test</p></div>
+				<div class="square embeddedItem seaGreen"><p class="bMain">1, 2, 3</p></div>
+				
+			</div>
+		</div>
+
+		<!-- Content: Computing -->
+		<div class="fw-box" id = "computing">
+			<div class="fw-box">
+				<div>
+					<h2 class="bMain">Title</h2>
+					<p class="bMain">Don't reinvent the wheel. Make a faster engine. People asked for better horses and Ford gave them cars. Reinventing the idea of horse power. Individuals asked for better international currency exchanges and got crytocurrencies. Adoption is important but education is essential.</p>
+				</div>
+			</div>
+
+			<p class="bMain" style="text-align: center;"><br><br><button class="button">Learn More</button><br><br></p>
+
+			<!-- Form -->
+			<p style="text-align: center;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe67RxRbaYTP9OCPdDm3ExDyeAlaBUacJYE_Vyp6E7InO3kZA/viewform?embedded=true" width="640" height="936" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+		</div>
+
 	</div>
 </div>
 
@@ -110,11 +138,18 @@
 
 
 <script type="text/javascript">
+
+	function hideContent(){
+		document.getElementById("finance").style.display = "none";
+		document.getElementById("estate").style.display = "none";
+		document.getElementById("computing").style.display = "none";
+	} hideContent();
 	
-	function showFinance(){}
-	function showRealEstate(){}
-	function showComputing(){}
+	function showFinance(){document.getElementById("finance").style.display = "block";}
+	function showRealEstate(){document.getElementById("estate").style.display = "block";}
+	function showComputing(){document.getElementById("computing").style.display = "block";}
+
 	function more(){document.getElementById("bodyContent").style.display = "block";}
-	function less(){document.getElementById("bodyContent").style.display = "none";}less();
+	function less(){document.getElementById("bodyContent").style.display = "none";} less();
 
 </script>
