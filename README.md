@@ -4,6 +4,9 @@
  
 ## Inspiration: We were inspired by the vast lack of awareness concerning financial literacy among millenials. We decided it was prudent we built an app addressing this issue.
 
+
+Hackathon - <https://devpost.com/software/adulting-up1tr0>
+
 ## What it does:
 In order to educate our target demographic (millennials) we thought the best way to reach out was through a social media feed curated for each individual user through a questionnaire inquiring about areas of financial literacy that they would be unfamiliar with (i.e. credit, 401k, student loans). And then feed media content in the form of articles, videos, budgeting schedules and more to that user pertaining to the areas they were interested in knowing more about.
 
